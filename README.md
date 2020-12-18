@@ -38,11 +38,11 @@ La carte est conçue pour être exactement aux même dimension que la carte de 4
 La soudure des composants sur la carte est très simple il suffit de se laisser guider par la sérigraphie. Seul le connecteur 2*20pin du Rapsberry se positionne sous la carte, tous les autres éléments sont au dessus.
 
 ### relier le PCB et la carte Relais
-il faut utiliser des connecteurs souple dupond femelle/femelle et relier les deux cartes en suivant [ce guide](https://www.papsdroid.fr/post/aquapi-diy-monitoring-aquarium-alimentations) et plus particulièrement la section "Commande 12V pilotées par le Raspberry pi". La première section du guide concerne une alimentation du système "ancienne version" et non compatible avec le boîtier imprimé 3D qui sera proposé par la suite.
+il faut utiliser des connecteurs souples dupond femelle/femelle et relier les deux cartes en suivant [ce guide](https://www.papsdroid.fr/post/aquapi-diy-monitoring-aquarium-alimentations) et plus particulièrement la section "Commande 12V pilotées par le Raspberry pi". La première section du guide concerne une alimentation du système "ancienne version" et non compatible avec le boîtier imprimé 3D qui sera proposé par la suite.
 
 ![relais](_docs/relais01.jpg)
 
-Chaque relais est à voir comme **un interrupteur 3 points** commandé par le raspberry pi. Il distribue le 12V du milieu soit à doite (au repos) soit à gauche en faisant un "clac" caractéritique quand il est activé. Selon le fonctionnement que l'on souhaite (12v au repos ou bien 12v activé) il faut brancher le fil Rx du relais "x" sur la vis gauche ou celle de droite, la vis du milieu étant elle toujours à 12Vcc.
+Chaque relais est à voir comme **un interrupteur 3 points** commandé par le raspberry pi. Il distribue le 12V du milieu soit à doite (au repos) soit à gauche en faisant un "clac" caractéristique quand il est activé. Selon le fonctionnement que l'on souhaite (12v au repos ou bien 12v activé) il faut brancher le fil "Rx" de la carte au sur la vis gauche ou droite du relais "x", la vis du milieu étant elle toujours à 12Vcc.
 
 ![relais](_docs/relais02.jpg)
 
@@ -56,6 +56,12 @@ Les explications et paramétrage du système pour tenir compte des capteurs sont
 
 ## Boîtier imprimé 3D
 
-EN COURS DE CONCEPTION
+Boîtier en 3 parties: 
+* partie basse avec des ornières pour y loger l'une sur l'autre la carte relais et la carte avec le Raspberry pi, 
+* partie haute pour faire couvercle
+* réhausse pour souder les 2 Leds à la bonne hauteur
 
+**EN COURS DE CONCEPTION**
+
+--> à suivre
 
