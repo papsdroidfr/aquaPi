@@ -42,6 +42,10 @@ il faut utiliser des connecteurs souple dupond femelle/femelle et relier les deu
 
 ![relais](_docs/relais01.jpg)
 
+Chaque relais est à voir comme **un interrupteur 3 points** commandé par le raspberry pi. Il distribue le 12V du milieu soit à doite (au repos) soit à gauche en faisant un "clac" caractéritique quand il est activé. Selon le fonctionnement que l'on souhaite (12v au repos ou bien 12v activé) il faut brancher le fil Rx du relais "x" sur la vis gauche ou celle de droite, la vis du milieu étant elle toujours à 12Vcc.
+
+![relais](_docs/relais02.jpg)
+
 ## Capteurs
 
 Il y a déjà un capteur de température DS18B20 soudé sur la carte, et un autre étanche va pouvoir être plongé dans l'aquarium et être relié à la carte via une prise Jack Audio 3 fils. La partie femelle sera vissée sur le boitier imprimé 3D et des fils soudés seront à relier au bornier 3 vis de la carte (en haut à gauche au dessus des 4 prises Jacks DC reliées aux relais.)
