@@ -43,8 +43,15 @@ il faut utiliser des connecteurs souple dupond femelle/femelle et relier les deu
 ![relais](_docs/relais01.jpg)
 
 ## Capteurs
+
+Il y a déjà un capteur de température DS18B20 soudé sur la carte, et un autre étanche va pouvoir être plongé dans l'aquarium et être relié à la carte via une prise Jack Audio 3 fils. La partie femelle sera vissée sur le boitier imprimé 3D et des fils soudés seront à relier au bornier 3 vis de la carte (en haut à gauche au dessus des 4 prises Jacks DC reliées aux relais.)
+
 ![capteur](_docs/capteurTemp.png)
 
-Il y a déjà un capteur de température DSDB20 soudé sur la carte, et un autre étanche va ppuvoir être plongé dans l'aquarium et relié à la carte via une pirse JAck AUDIO 3 fils. La partie femelle sera vissée sur le boitier imprimé 3D et des fils soudés seront à relier au bornier 3 vis de la carte (en haut à gauche au dessus des 4 prises Jacks DC reliées aux relais.)
+Les explications et paramétrage du système pour tenir compte des capteurs sont expliqués dans [ce guide](https://www.papsdroid.fr/post/aquapi-diy-monitoring-aquarium-les-capteurs)
+
+## Boîtier imprimé 3D
+
+EN COURS DE CONCEPTION
 
 
