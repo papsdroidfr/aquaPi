@@ -29,7 +29,7 @@ La carte est conçue pour être exactement aux même dimension que la carte de 4
 * 1 capteur de tempéraure DS18B20 étanche
 * 1 barrette à souder  2*20 pins femelle pas 2,54mm
 * 1 connecteurs pin header mâle coudé (horizontal) 2.54mm: 1x7 pins (prendre 1 de 4 pins + 1 de 3 pins à mettre côte à côte): pour relier la carte aux relais
-* 1 connecteur pin header mâle coudé (horizontal) 2.45mm: 1x3 pins: pour relier à la sonde de température étanche.
+* 1 connecteur pin header mâle coudé (horizontal) 2.54mm: 1x3 pins: pour relier à la sonde de température étanche.
 * 2 borniers à vis à souder type phoenix 4 pins 2.54mm: ils servent à relier le PCB aux relais 12V.
 * 5 jack DC 3 points (1 pour l'alimentation 12v, et 4 autres pour relier les appareils 12v aux 4 relais)
 * 1 jack Audio mâle 3.5mm stéréo (il doit y avoir 2 colerettes noires) à soudier: on va y souder les 3 fils de la sonde de température étanche.
