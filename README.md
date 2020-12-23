@@ -24,16 +24,21 @@ La carte est conçue pour être exactement aux même dimension que la carte de 4
 
 * Le circuit imprimé à faire imprimé chez n'importe quel fabriquant de PCB (double couche)
 * 2 leds 5mm, 1 rouge et une verte
-* résistance: 2 * 470Ω + 1 * 4.7kΩ
+* résistances: 2 * 470Ω + 1 * 4.7kΩ
 * 1 capteur de température DS18B20 non étanche (format TO90)
+* 1 capteur de tempéraure DS18B20 étanche
 * 1 barrette à souder  2*20 pins femelle pas 2,54mm
-* 1 connecteurs pin headers mâles 2,54mm: 1*7 pins (j'achète toujours des barettes 1*20 sécables)
+* 1 connecteurs pin header mâle coudé (horizontal) 2.54mm: 1x7 pins (prendre 1 de 4 pins + 1 de 3 pins à mettre côte à côte): pour relier la carte aux relais
+* 1 connecteur pin header mâle coudé (horizontal) 2.45mm: 1x3 pins: pour relier à la sonde de température étanche.
 * 2 borniers à vis à souder type phoenix 4 pins 2.54mm: ils servent à relier le PCB aux relais 12V.
-* 1 bornier à vis à souder type phoenix 3 pin 2.54mm: sert à brancher le capteur de température étanche (voir section des capteurs)
 * 5 jack DC 3 points (1 pour l'alimentation 12v, et 4 autres pour relier les appareils 12v aux 4 relais)
+* 1 jack Audio mâle 3.5mm stéréo (il doit y avoir 2 colerettes noires) à soudier: on va y souder les 3 fils de la sonde de température étanche.
+* 1 jack audio femelle 3.5mm stéréo, montage en surface, avec un écrou de fixation.
 * 1 convertisseur DC/DC 12v->5v référence TSR 1-2450. Attention à **ne pas prendre un LM7805** qui est un convertisseur linéaire avec un très mauvais rendement (40%) et qui chauffe énormément. Le TSR 1 est un convertisseur DC/DC à plage bien plus performant avec un **rendement de 94%**: aucun problème de chauffe ni de gaspillage électrique donc.
 * 1 barette femelle 2*20 pin, sur lequel sera branché le raspberry pi.
 * 1 alimentation 12V CC, 2A (24W) suffisent si vous n'avez pas des km de leds à allumer, sinon prenez plus puissant.
+* 10 câbles souples dupond femelle/femelle pour relier les pin headers coudés à la carte relais (7 câbles) et jack de la sonde de température étanche (3 câbles).
+* 8 câbles monobrun pour relier les sorties relais de la carte aux relais 12v.
 
 La soudure des composants sur la carte est très simple il suffit de se laisser guider par la sérigraphie. Seul le connecteur 2*20pin du Rapsberry se positionne sous la carte, tous les autres éléments sont au dessus.
 
