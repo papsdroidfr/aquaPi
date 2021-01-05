@@ -31,16 +31,15 @@ La carte est conçue pour être exactement aux même dimension que la carte de 4
 * 1 connecteurs pin header mâle coudé (horizontal) 2.54mm: 1x7 pins (prendre 1 de 4 pins + 1 de 3 pins à mettre côte à côte): pour relier la carte aux relais
 * 1 connecteur pin header mâle coudé (horizontal) 2.54mm: 1x3 pins: pour relier à la sonde de température étanche.
 * 2 borniers à vis à souder type phoenix 4 pins 2.54mm: ils servent à relier le PCB aux relais 12V.
-* 5 jack DC 3 points (1 pour l'alimentation 12v, et 4 autres pour relier les appareils 12v aux 4 relais)
-* 1 jack Audio mâle 3.5mm stéréo (il doit y avoir 2 colerettes noires) à soudier: on va y souder les 3 fils de la sonde de température étanche.
+* 5 jack DC 3.5mm 3 points (1 pour l'alimentation 12v, et 4 autres pour relier les appareils 12v aux 4 relais)
+* 1 jack Audio mâle 3.5mm stéréo (il doit y avoir 2 collerettes noires) à souder: on va y souder les 3 fils de la sonde de température étanche.
 * 1 jack audio femelle 3.5mm stéréo, montage en surface, avec un écrou de fixation.
 * 1 convertisseur DC/DC 12v->5v référence TSR 1-2450. Attention à **ne pas prendre un LM7805** qui est un convertisseur linéaire avec un très mauvais rendement (40%) et qui chauffe énormément. Le TSR 1 est un convertisseur DC/DC à plage bien plus performant avec un **rendement de 94%**: aucun problème de chauffe ni de gaspillage électrique donc.
-* 1 barette femelle 2*20 pin, sur lequel sera branché le raspberry pi.
 * 1 alimentation 12V CC, 2A (24W) suffisent si vous n'avez pas des km de leds à allumer, sinon prenez plus puissant.
 * 10 câbles souples dupond femelle/femelle pour relier les pin headers coudés à la carte relais (7 câbles) et jack de la sonde de température étanche (3 câbles).
 * 8 câbles monobrun pour relier les sorties relais de la carte aux relais 12v.
 
-La soudure des composants sur la carte est très simple il suffit de se laisser guider par la sérigraphie. Seul le connecteur 2*20pin du Rapsberry se positionne sous la carte, tous les autres éléments sont au dessus.
+La soudure des composants sur la carte est très simple il suffit de se laisser guider par la sérigraphie. Seul le connecteur 2*20pin du Rapsberry se positionne sous la carte, tous les autres éléments sont au dessus. Vous pouvez suivre [ce guide](https://www.papsdroid.fr/post/aquapi-monitiring-diy-aquarium-cmv2) avec photos détaillées.
 
 ### relier le PCB et la carte Relais
 il faut utiliser des connecteurs souples dupond femelle/femelle et relier les deux cartes en suivant [ce guide](https://www.papsdroid.fr/post/aquapi-diy-monitoring-aquarium-alimentations) et plus particulièrement la section "Commande 12V pilotées par le Raspberry pi". La première section du guide concerne une alimentation du système "ancienne version" et non compatible avec le boîtier imprimé 3D qui sera proposé par la suite.
