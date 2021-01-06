@@ -68,10 +68,9 @@ Boîtier en 2 parties:
 
 les fichiers STL pour imprimer le boitier sont dans le dossier /boitier3D. Imprimer en 0.2mm avec supports pour imprimer correctement les ouvertures. Comptez 1h50 pour la coque basse, et 1h40 pour la coque haute. N'oubliez pas de bien libérer les petites aérations sur les bords des coques hautes et basses.
 
-La carte avec le Raspberry se loge dans le fond de la coque basse, il y a un passage prévu pour le raspberry pi dans la tour haut droite (logo du robot face à vous). Il faut l'incliner un peu pour la passer sous les supports de la carte relais. Les évents devant et derrière servent à passer les câbles entre la carte et la carte relais. La carte relais se positionne au dessus, sur les petits supports: ça fait "clac" quand elle est bien en place.
-La coque haute se positionne facilement et fait aussi un "calc" quand les 4 petits supports sont logés dans la coque basse: attention à ne pas pas pincer les câbles lors de la fermeture.
+Pour plus de détails sur l'assemblage des cartes dans le boîtier, suivez [ce guide](https://www.papsdroid.fr/post/aquapi-boitier3d)
 
-Une fois fermé et en fonctionnement, la température interne du boîtier varie entre 28°C et 35°C, ce qui ne nécessite aucune ventilation particulière.
+Une fois fermé et en fonctionnement, la température interne du boîtier varie entre 30°C et 35°C, ce qui ne nécessite aucune ventilation particulière.
 
-Un foi
+
 
